@@ -2,7 +2,7 @@ export const ProjectsData = [
     {
       id: 1,
       name: "Online Food Ordering System",
-      img: "Project1.svg",
+      img: "Project1.png",
       alt: "Project Image",
       description: "This is an Online Food Ordering System that I built for my Web Development Assignment in Campus.",
       languages: "PHP, MySQL, JavaScript, HTML5, CSS3",
