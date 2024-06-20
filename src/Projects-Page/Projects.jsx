@@ -18,7 +18,7 @@ const Projects = ({ projectsData }) => {
             <div className="title-image">
               <h3>{props.name}</h3>
               <img
-                src={`../../src/img/${props.img}`}
+                src={`/${props.img}`}
                 alt={props.alt}
                 width={props.width}
               />
