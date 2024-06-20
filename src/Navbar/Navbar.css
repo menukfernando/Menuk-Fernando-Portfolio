@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+nav .logo{
+    font-size: 1.7rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+nav .nav-links{
+    padding: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a.active{
+    color: #3b82f6;
+    transition: 0.5s;
+}
+nav a:hover{
+    color: #3b82f6;
+    transition: 0.5s;
+}
+
+nav .social-media{
+    display: flex;
+}
+
+a{
+    margin-top: -3px;
+    cursor: pointer;
+}
+
+span{
+    color: #3b82f6;
+}
+
+.social-media button{
+    border: none;
+    background-color: transparent;
+    margin-top: -4px;
+    cursor: pointer;
+}
+
+.side-bar button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.side-bar{
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(245, 245, 245, 0.514);
+    backdrop-filter: blur(10px);
+    width: 50%;
+    height: 100vh;
+}
+
+.side-bar .navigation-links{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.side-bar .social-media{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+#close-btn{
+    margin-left: auto;
+}
+
+#menu-btn{
+    display: none;
+}
+
+@media(max-width: 1000px){
+    .hideOnMobile{
+        display: none;
+    }
+
+    #menu-btn{
+        display: block;
+    }
+}
+
+@media(max-width: 1340px){
+    .hideOnMobile{
+        display: none;
+    }
+
+    #menu-btn{
+        display: block;
+    }
+}
+
+@media(max-width: 420px){
+    .hideOnMobile{
+        display: none;
+    }
+
+    #menu-btn{
+        display: block;
+    }
+
+    .side-bar{
+        width: 90%;
+    }
+}
+
+@media(max-width: 376px){
+    .hideOnMobile{
+        display: none;
+    }
+
+    #menu-btn{
+        display: block;
+        margin-left: auto;
+        width: 30px;
+    }
+
+    .side-bar{
+        width: 90%;
+    }
+    
+    .logo.mobile{
+        font-size: 1.2rem;
+    }
+
+    .menu-svg{
+        width: 25px;
+    }
+}
