@@ -188,6 +188,8 @@
 
     .main.mobile{
         display: flex;
+        margin: 0 90px;
+        width: 100%;
     }
 
     .skills.mobile{
@@ -197,6 +199,17 @@
     .hideOnMobile{
         display: none;
     }
+
+    .section-title.mobile h1{
+        font-size: 1.5rem;
+        width: 90vw;
+    }
+
+    .section-title.mobile h3{
+        font-size: 1.3rem;
+        width: 80vw;
+    }
+
 }
 
 @media (max-width: 370px) {
