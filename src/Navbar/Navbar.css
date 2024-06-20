@@ -75,6 +75,13 @@ span{
     margin-right: auto;
 }
 
+.side-bar .navigation-links button{
+    font-size: larger;
+    margin-left: -10px;
+    border: none;
+    background-color: transparent;
+}
+
 .side-bar .social-media{
     display: flex;
     flex-direction: row;

@@ -24,18 +24,28 @@ const Navbar = () => {
           <img src={Close} id="close-btn" />
         </button>
         <div className="navigation-links">
-          <NavLink className="nav-links" to={"/"}>
-            Home
-          </NavLink>
-          <NavLink className="nav-links" to={"/about"}>
-            About
-          </NavLink>
-          <NavLink className="nav-links" to={"/projects"}>
-            Projects
-          </NavLink>
-          <NavLink className="nav-links" to={"/blog"}>
-            Blog
-          </NavLink>
+          <button onClick={closeSideBar}>
+            <NavLink className="nav-links" to={"/"}>
+              Home
+            </NavLink>
+          </button>
+          <button onClick={closeSideBar}>
+            <NavLink className="nav-links" to={"/about"}>
+              About
+            </NavLink>
+          </button>
+
+          <button onClick={closeSideBar}>
+            <NavLink className="nav-links" to={"/projects"}>
+              Projects
+            </NavLink>
+          </button>
+
+          <button onClick={closeSideBar}>
+            <NavLink className="nav-links" to={"/blog"}>
+              Blog
+            </NavLink>
+          </button>
         </div>
         <div className="social-media">
           <a href="https://github.com/menukfernando" target="_blank">
@@ -81,7 +91,7 @@ const Navbar = () => {
             <img src={linkedin} alt="linkedin" />
           </a>
           <button id="menu-btn" onClick={showSideBar}>
-            <img src={Menu} alt="" className="menu-svg"/>
+            <img src={Menu} alt="" className="menu-svg" />
           </button>
         </div>
       </nav>
