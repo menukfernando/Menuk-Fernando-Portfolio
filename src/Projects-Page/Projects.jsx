@@ -4,6 +4,8 @@ import "./Projects.css";
 import { TabTitle } from "../../utils/GeneralFunctions";
 
 
+
+
 const Projects = ({ projectsData }) => {
 
   TabTitle('Projects | Menuk Fernando')
@@ -16,7 +18,7 @@ const Projects = ({ projectsData }) => {
             <div className="title-image">
               <h3>{props.name}</h3>
               <img
-                src={`${props.img}`}
+                src={`../../src/img/${props.img}`}
                 alt={props.alt}
                 width={props.width}
               />
