@@ -18,7 +18,7 @@ const Blog = ({ BlogData }) => {
           <div className="blog-card">
             <h3>{props.title}</h3>
             <img
-              src={`../../src/img/blog-img/${props.img}`}
+              src={`/${props.img}`}
               alt="img"
               width="250px"
             />
