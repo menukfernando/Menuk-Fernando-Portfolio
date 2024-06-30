@@ -42,6 +42,11 @@ const About = () => {
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg",
       width: 60,
     },
+    {
+      name: "SCSS",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
+      width: 60,
+    }
   ];
 
   const backendSkills = [
